@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#page4{
+    height: 100vh;
+    width: 100%;
+    background-color: lime;
+}
+#page5{
+    height: 100vh;
+    width: 100%;
+    background-color: limegreen;
+}
+#parentOfimageDiv{
+    height: 100%;
+    width: 30%;
+    position: relative;
+    left: 35%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+#parentOfimageDiv img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    scale: 1.1;
+}
+#page6{
+    height: 100vh;
+    width: 100%;
+    background-color: green;
+}
